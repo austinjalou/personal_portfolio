@@ -79,6 +79,27 @@ main h3 {
     height: 250px;
 }
 
-#fav-artist {
-    display: inline-table;
+#test {
+    display: flex;
+}
+
+
+#contactinfo {
+    display: flex;
+}
+
+#phone-number {
+    padding: 0 50px 0px 50px;
+}
+
+#email-addy {
+    padding: 0 50px 0 50px;
+}
+
+#github-url {
+    padding: 0 50px 0 50px;
+}
+
+#linked-in {
+    padding: 0 50px 0 50px;
 }
