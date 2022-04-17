@@ -3,9 +3,13 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+header {
+    background-color: #202e2a;
+}
+
 header h1 {
+    display: inline-block;
     color: #202e2a;
-    float: left;
     margin:auto;
     font-size: 40px;
     background-color: lightskyblue;
@@ -27,10 +31,12 @@ header nav {
 }
 
 #work-nav {
+    color: lightskyblue;
     background-color: #202e2a;
 }
 
 #contact-nav {
+    color: lightskyblue;
     background-color: #202e2a;
 }
 
@@ -40,9 +46,39 @@ body {
     ;
 }
 
-.hero h2 {
-padding: 20px;
+.hero div{
+font-size: 30px;
+padding: 40px;
 background-color: #202e2a;
-display: inline-block;
 text-align: end;
+}
+
+main h3 {
+    text-align: justify;
+    font-size: 30px;
+}
+
+.maincontent {
+    color: grey;
+    text-align: left;
+    padding-left: 200px;
+}
+
+#rbimg {
+    width: 900px;
+    height: auto;
+}
+
+#favthingsimg {
+    width: 400px;
+    height: 250px;
+}
+
+#favartistimg {
+    width: 400px;
+    height: 250px;
+}
+
+#fav-artist {
+    display: inline-table;
 }
