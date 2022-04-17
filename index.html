@@ -6,19 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <h1>Austin Jalou</h1>
         <nav>
-            <a href="#about-me">About Me</a>
-            <a href="#work">Work</a>
-            <a href="#contactme">Contact Me</a>
+            <a href="#about-me" id="about-me-nav"> About Me</a>
+            <a href="#work" id="work-nav">Work</a>
+            <a href="#contactme" id="contact-nav">Contact Me</a>
         </nav>
     </header>
-    <hero>
+    <hero class="hero">
         <h2>My portfolio</h2>
     </hero>
     <main>
@@ -46,15 +46,17 @@
             <h3>
                 Work
             </h3>
-                <section id="run-buddy">
+            <section class="grid-container">
+                <section id="run-buddy" class="grid-1">
                     <a href="https://austinjalou.github.io/run-buddy/" target="_blank">Run Buddy</a>
                 </section>
-                <section id="fav-things">
+                <section id="fav-things" class="grid-item">
                     My Favorite Things
                 </section>
-                <section id="fav-artist">
+                <section id="fav-artist"class="grid-item">
                     My Favorite Artist
                 </section>
+            </section>
 
         </section>
        
